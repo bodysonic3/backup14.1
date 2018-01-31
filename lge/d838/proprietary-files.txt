@@ -1,0 +1,3 @@
+# NFC
+vendor/firmware/BCM4335C0_003.001.009.0055.0262.hcd
+
