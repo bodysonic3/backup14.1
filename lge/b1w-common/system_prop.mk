@@ -8,7 +8,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio_hal.period_size=192 \
     media.aac_51_output_enabled=true \
     persist.audio.fluence.voicecomm=true \
-    use.voice.path.for.pcm.voip=true
+    use.voice.path.for.pcm.voip=true \
+    ro.config.vc_call_vol_steps=12
+
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.speaker=false \

@@ -1,4 +1,4 @@
- ADSP
+# ADSP
 bin/adsprpcd
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvadsp_stub.so
@@ -297,7 +297,11 @@ vendor/lib/libalarmservice_jni.so
 -vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so
 
-# Widevine - from kipper
+# Widevine
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libwvdrm_L1.so
+vendor/lib/libwvm.so
+vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # WiFi
